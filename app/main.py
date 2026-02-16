@@ -1,7 +1,4 @@
-from datetime import date
-from typing import Optional
-from fastapi import FastAPI, Depends
-from pydantic import BaseModel
+from fastapi import FastAPI
 
 from app.bookings.router import router as router_bookings
 
